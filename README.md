@@ -13,8 +13,11 @@ My dataset only consists of 3013 stocks. In the future, we will do it on more:
 ### First Analysis
 The first analysis looped through them all and did xyz. The 2017 stocks came out like this:  
 
+[Outcomes Based on Goal](./resources/VBA_Challenge_2017.png)  
 
-![](./resources/VBA_Challenge_2018.png)  
+2018
+[Outcomes Based on Goal](./resources/VBA_Challenge_2018.png)  
+
 
 
 The timer on the original clocked in at xx
