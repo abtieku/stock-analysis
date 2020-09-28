@@ -22,7 +22,7 @@ So the new one went faster.
 ### Second Analysis
 The second one looped through them all and came out faster. Here's what it looked like:
 Include code
- 
+
 ![](./resources/VBA_Challenge_2017.png)  
 
 Why did the new one go faster? Because we used Index instead and that made all the difference.
