@@ -42,7 +42,7 @@ Advantages can be:
 * Code can be more straight-forward, less complex, and easier to maintain.
 
 ### Advantages and Disadvantages of Refactoring Code - This Project
-*Disadvantages can be:
+Disadvantages can be:
 * Time-consuming and not worth the time and money.
 * There is a chance for mistakes and the losing sight of the purpose of the code. It may need to be re-tested.
 
