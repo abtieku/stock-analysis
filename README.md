@@ -1,7 +1,7 @@
 # VBA of Wall Street
 ## Overview
 ### Purpose 
-The purpose of this analysis is to assist Steve in making the macro to analyze stocks run faster. Instead of searching through several dozen stocks to find which ones performed the best, he wants to search through the entire stock market which consists of  thousands of stocks. This will take much longer, and he wants to optimize his code as much as possible in order to save time.
+The purpose of this analysis is to assist Steve in making the macro to analyze stocks run faster. Instead of searching through several dozen stocks to find which ones performed the best, he now wants to search through the entire stock market which consists of  thousands of stocks. This will take much longer, and he wants to optimize his code as much as possible in order to save time.
 
 ## Results
 ### 2017 Stock Analysis
@@ -28,7 +28,7 @@ The disadvantages of refactoring code can be:
 * Work can be time-consuming and not worth the time and money.
 * There is a chance for mistakes. Code may need to be re-tested and this will take time and money.
 
-In this project, and index was used to make things run faster. We did not add much complexity and I believe it will be just as easy to maintain the long run. We know the results of the refactored code matched exactly to that of the original code in a small dataset, so we have confidence that the results will match in a large dataset. We did not spend too much time refactoring the code and it was time well spent.
+In this project, an index was used to make things run faster. We did not add much complexity and I believe it will be just as easy to maintain the long run. We know the results of the refactored code matched exactly to that of the original code in a small dataset, so we have confidence that the results will match in a large dataset. We did not spend too much time refactoring the code and it was time well spent.
 
 
 
