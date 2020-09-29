@@ -13,7 +13,7 @@ My dataset only consists of 3013 stocks. In the future, we will do it on more:
 ### First Analysis
 The first analysis looped through them all and did xyz. The 2017 stocks came out like this:
 
-![](./Resources/VBA_Challenge_2018.png)  
+![](./Resources/VBA_Challenge_2017.png)  
 
 The timer on the original clocked in at xx
 
@@ -23,7 +23,7 @@ So the new one went faster.
 The second one looped through them all and came out faster. Here's what it looked like:
 Include code
  
-![](./Resources/VBA_Challenge_2017.png)  
+![](./Resources/VBA_Challenge_2018.png)  
 
 Why did the new one go faster? Because we used Index instead and that made all the difference.
 
