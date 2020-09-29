@@ -31,11 +31,15 @@ Why did the new one go faster? Because we used Index instead and that made all t
 ### Advantages and Disadvantages of Refactoring Code - General
 Advantages can be: 
 * Code can be more straight-forward, less complex, and easier to maintain.
-
-### Advantages and Disadvantages of Refactoring Code - This Project
-*Disadvantages can be:
+Disadvantages can be:
 * Time-consuming and not worth the time and money.
 * There is a chance for mistakes and the losing sight of the purpose of the code. It may need to be re-tested.
+
+### Advantages and Disadvantages of Refactoring Code - This Project
+Advantages can be:
+
+Disadvantages can be:
+
 
 
 
