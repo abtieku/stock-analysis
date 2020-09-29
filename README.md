@@ -1,45 +1,35 @@
 # VBA of Wall Street
 ## Overview
-### Purpose and Background
-The purpose of this analysis is to assist Dago in making his macro run faster. He is currently adivising his parents on what stocks to purchase. As a test, he is only running it through 3013 stocks, and before he runs it through all stocks, he wants to make it run faster. 
-
-The first spreadsheet I did was to loop through and find ones that have a higher ending cost than starting close, and a high percentage of gain. The second spreadsheet was to make the code run faster.
-
-With both spreadsheets, I programmed in a timer to tell how much time it takes to do each. My sample did not have all stocks in it, hopefully Dago can run it on the whole stock market to come up with the statistics for his parents on all stocks to buy.
-
-My dataset only consists of 3013 stocks. In the future, we will do it on more:
+### Purpose 
+The purpose of this analysis is to assist Steve in making the macro to analyze stocks run faster. Instead of searching through several dozen stocks to find which ones performed the best, he wants to search through the entire stock market which consists of  thousands of stocks. This will take much longer, and he wants to optimize his code as much as possible in order to save time.
 
 ## Results
-### First Analysis
-The first analysis looped through them all and did xyz. The 2017 stocks came out like this:
+### 2017 Stock Analysis
+*In this analysis,  seconds have been rounded to the nearest hundredth.*
+
+When the original code was run on 2017 stocks, it took 0.97 seconds. The refactored code took 0.12 seconds:
 
 ![](./Resources/VBA_Challenge_2017.png)  
 
-The timer on the original clocked in at xx
+### 2018 Stock Analysis
+When the original code was run on 2018, it took 0.95 seconds. The refactored code took  0.14 seconds.
 
-So the new one went faster.
-
-### Second Analysis
-The second one looped through them all and came out faster. Here's what it looked like:
-Include code
- 
 ![](./Resources/VBA_Challenge_2018.png)  
 
-Why did the new one go faster? Because we used Index instead and that made all the difference.
+The refactored code saved about 0.8 seconds in both cases. If we extrapolate that for thousands of stocks, this may equate to saving several hours spent waiting for the macro to run.
 
 ## Summary
-### Advantages and Disadvantages of Refactoring Code - General
-Advantages can be: 
-* Code can be more straight-forward, less complex, and easier to maintain.
+### Advantages and Disadvantages of Refactoring Code
+The advantages of refactoring code can be:
+* Code can be made more straight-forward, less complex, and easier to maintain in the long run.
+* Code can be optimized, making it run faster.
 
-Disadvantages can be:
-* Time-consuming and not worth the time and money.
-* There is a chance for mistakes and the losing sight of the purpose of the code. It may need to be re-tested.
+The disadvantages of refactoring code can be:
+* Work can be time-consuming and not worth the time and money.
+* There is a chance for mistakes. Code may need to be re-tested and this will take time and money.
 
-### Advantages and Disadvantages of Refactoring Code - This Project
-Advantages can be:
+In this project, and index was used to make things run faster. We did not add much complexity and I believe it will be just as easy to maintain the long run. We know the results of the refactored code matched exactly to that of the original code in a small dataset, so we have confidence that the results will match in a large dataset. We did not spend too much time refactoring the code and it was time well spent.
 
-Disadvantages can be:
 
 
 
